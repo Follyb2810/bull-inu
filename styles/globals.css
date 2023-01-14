@@ -17,7 +17,19 @@
 }
 @font-face {
   font-family: font5;
+  src: url("poppins/Poppins-MediumItalic.ttf");
+}
+@font-face {
+  font-family: font6;
   src: url("mono.ttf");
+}
+@font-face {
+  font-family: font7;
+  src: url("Balsamiq/BalsamiqSans-Regular.ttf");
+}
+@font-face {
+  font-family: font8;
+  src: url("mendung-SVG.ttf");
 }
 *{
   margin: 0;
@@ -33,7 +45,7 @@ body{
   /* background-color: rgba(37,35,37,.6); */
   /* background: #09655A; */
   background-color: darkgreen;
-  text-transform: capitalize;
+  text-transform: none;
   color: #fff;
   width: 100%;
 }
@@ -53,98 +65,22 @@ header{
    position: sticky;
    top: 0;
    background-color:rgb(0,100,8) ;
-   /* background-color:rgb(5, 100, 80) ; */
-   /* background-color: red; */
-   /* margin-bottom: 10px; */
+  
 }
-/* header p{
-   background-color: rgb(37,35,37);
-   font-size:1.3rem;
-   text-align: center;
-   padding: 5px;
-} */
-header div{
-  /* display: flex;
-  justify-content: space-around;
-  font-family: font2;
-  padding-top: 20px;
-  /* margin-top: 10px; */
-  /* padding: 20px 10px; */
-  /* font-size: 1.5rem; */
-   /* background: #09655A; */
-}
-header div span i{
-  /* height: 50px;
-  width: 50px; */
-}
-/* header button{
-  background-color: blue;
-  width: 12rem;
-  height: 30px;
-  outline-color: none;
-  border: none;
-  box-shadow: 2px 3px 10px 1px rgb(255, 255, 0) ;
-} */
-/* .logo{
-  object-fit: contain;
-  width: 50% !important;
-  position: relative !important;
-  height: unset !important;
-} */
 main{
   margin-top: 40px;
   display: grid;
-  /* place-content: center; */
   place-items: center;
-  /* justify-items: center; */
-  /* align-items: center; */
-  /* width: 50%; */
-  /* word-wrap: break-word; */
-  /* word-break: break-all; */
 }
 main >h1{
   font-family: font1;
-  /* font-family: Arial, Helvetica, sans-serif; */
-  font-size: 7rem;
-  /* color: #f5f5f5; */
-  /* text-shadow: 1px 1px 1px #919191,
-                1px 2px 1px #919191,
-                1px 3px 1px #919191,
-                1px 4px 1px #919191,
-                1px 4px 1px #919191,
-                1px 6px 1px #919191,
-                1px 7px 1px #919191,
-                1px 8px 1px #919191,
-                1px 9px 1px #919191,
-                1px 10px 1px #919191,
-                1px 18px 6px rgba(16, 16, 16, 0.4),
-                1px 22px 10px rgba(16, 16, 16, 0.4),
-                1px 25px 35px rgba(16, 16, 16, 0.4),
-                1px 30px 60px rgba(16, 16, 16, 0.4);
-                
-                ; */
-  /* stroke-width: 200px; */
+  font-size: 10rem;
+  word-spacing: 3px;
   -webkit-text-stroke: white  2px ;
-  /* color: grad; */
   background:linear-gradient(red,blue) ;
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  /* text-shadow: 0px 1px 0 #ccc,
-                0px 2px 0 #ccc,
-                0px 3px 0 #ccc
-                0px 4px 0 #ccc,
-                0px 5px 0 #ccc,
-                0px 6px 0 #ccc,
-                0px 7px 0 #ccc,
-                0px 8px 0 #ccc,
-                0px 9px 0 #ccc,
-                0px 10px 0 #ccc,
-                0px 11px 0 #ccc,
-                0px 12px 0 #ccc,
-                0 20px 30px rgba(0,0,0,0.5) */
-
-
 }
 main ol{
   margin: 20px;
@@ -152,16 +88,19 @@ main ol{
 }
 main ol > li{
   word-break: break-all;
-
+  font-family: font5;
+  letter-spacing: 3px;
   padding: 5px;
   font-size: 2rem;
-  
-  /* width: ; */
 }
 main p{
   font-size: 1.8rem;
   width: 50%;
   /* width: 30ch; */
+  font-family: font7;
+  /* text-transform: none; */
+  text-indent: 30px;
+  letter-spacing: 3px;
 }
 footer{
   display: grid;
