@@ -4,7 +4,7 @@ export default function(){
     return (
         <footer>
             <Image src={Logo} alt="bull"  className="footerImg" />
-            <h3>10k supply</h3>
+            <h3>10B supply</h3>
             <a href="#">verifird contract</a>
         </footer>
     )
